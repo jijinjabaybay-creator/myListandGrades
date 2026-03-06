@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <style>
-    table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse; /* Optional: collapses borders into a single line */
-        padding: 8px; /* Optional: adds space between cell content and border */
-        text-align: center; /* Optional: centers content in cells */
-    }
+   <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 </style>
-    <title></title>
+    <title>MY GRADES</title>
 </head>
 
 <body>
@@ -26,31 +36,63 @@
   <li>Third item</li>
 </ul>
 
-<table>
-        <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
-            <th>Header 3</th>
-            <th>Header 4</th>
-            <th>Header 5</th>
-            <th>Header 6</th>
-            <th>Header 7</th>
-            <th>Header 8</th>
-            <th>Header 9</th>
-        </tr>
 
-         <tr>
-            <td>Row 2, Data 1</td>
-            <td>Row 2, Data 2</td>
-            <td>Row 2, Data 3</td>
-            <td>Row 2, Data 4</td>
-            <td>Row 2, Data 5</td>
-            <td>Row 2, Data 6</td>
-            <td>Row 2, Data 7</td>
-            <td>Row 2, Data 8</td>
-            <td>Row 2, Data 9</td>
-        </tr>
-    </table>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Subject</th>
+    <th>Score</th>
+  </tr>
+
+  <tr> 
+    <td>B. EMPACES</td>
+    <td>WEB DEVELOPMENT</td>
+    <td></td>
+</tr>
+<tr>
+    <td>I. EDA</td>
+    <td>COMPUTER PROGRAMMING</td>
+    <td></td>
+</tr>
+<tr>
+    <td>T. COMAYAS</td>
+    <td>BASIC ELECTRONICS</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>L. PAQUIBOT</td>
+    <td>NSTP</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>J. PAQUIBOT</td>
+    <td>PATHFIT</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>C. BLASCO</td>
+    <td>PURPOSIVE COMMUNICATION</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>E. ANDO</td>
+    <td>PANITIKAN NG PILIPINAS</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>E. DINOY</td>
+    <td>DISCRETE STRUCTURES</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>D. INOC</td>
+    <td>READINGS IN PHILIPPINE HISTORY</td>
+    <td></td>
+  </tr>
+
+</table>
 
 </body>
 
